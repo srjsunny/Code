@@ -1,3 +1,4 @@
+```C
 #include <iostream>
 #include <sstream>
 #include<vector>
@@ -50,4 +51,4 @@ OUTPUT:
 10
 hero
   
-  
+ ``` 
