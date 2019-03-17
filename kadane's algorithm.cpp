@@ -4,7 +4,8 @@ using namespace std;
 
 //practice problem : https://leetcode.com/problems/maximum-subarray/
 
-
+//time : O(n)
+//space: O(1) as we are not storing the previousBest.
 
 
 int kadane(int a[],int n)
