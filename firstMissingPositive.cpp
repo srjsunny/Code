@@ -28,6 +28,8 @@ int main()
 			swap(a[i],a[a[i]-1]);
 		
 		
+	}	
+		
 		for(int i=0;i<n;i++)
 		{   //if index and the element not the same, means that's the one missing.
 			//so that index is missing.
