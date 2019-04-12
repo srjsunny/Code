@@ -9,12 +9,12 @@
         int min_buy = INT_MAX;
         
         for(int i=0;i<prices.size();i++)
-        {    //if the prices is less than the buying one update it
+        {    //if min_buy is not the least update it 
             if(prices[i]<min_buy)
                     min_buy=prices[i];
             
             else
-            {   //we take the maximum of current profit , or the price[i] minus the minimum buy
+            {   //we take the maximum of current profit , or the price[i] minus the minimum buying price
                 profit= max(profit,prices[i]-min_buy);
             }
         }
