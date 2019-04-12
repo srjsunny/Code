@@ -3,7 +3,11 @@
 But we have to buy again before selling again
 */
 
-     int profit = 0;
+//see the picture in images.
+
+//we can see that total profit is the sum of all the incremental pairs. 
+     
+      int profit = 0;
        if(prices.size()==0)
            return 0;
         
